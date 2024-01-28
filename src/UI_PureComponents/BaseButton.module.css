@@ -1,0 +1,29 @@
+.btn {
+    display: block;
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid #a9a9a9;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    box-shadow: 2px 2px 3px #a9a9a9;
+    cursor: default;
+}
+.btn:enabled {
+    display: block;
+    background-color: orange;
+    font-size: 16px;
+    box-shadow: 2px 2px 3px #a9a9a9;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.btn:enabled:hover {
+    background-color: #ed9121;
+}
+.btn:enabled:active {
+    background-color: #ff9c3b;
+}
